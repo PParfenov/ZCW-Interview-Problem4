@@ -27,16 +27,4 @@ public class Problem4Test {
         Assert.assertFalse(actual);
     }
 
-    @Test
-    public void countOddsTest(){
-        Problem4 problem4 = new Problem4();
-        String input = "aabbcccdddf";
-        ArrayList<Integer> countedChars = problem4.countChars(input);
-
-        int actual = problem4.countOdds(countedChars);
-        int expected = 3;
-
-        Assert.assertEquals(expected, actual);
-    }
-
 }
